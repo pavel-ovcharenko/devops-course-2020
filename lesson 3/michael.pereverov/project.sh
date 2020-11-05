@@ -35,7 +35,7 @@ docker run -d --rm \
 	--network=ma-net \
 	-e DB=${DB} \
 	-e CACHE=${CACHE} \
-	-v "$PWD":/usr/src/app/ \
+	-v /home/mike/Documents/MA/devops-course-2020/lesson\ 3/:/usr/src/app/ \
 	-w /usr/src/app \
 	ruby:2.6.0 \
 	ruby server.rb
