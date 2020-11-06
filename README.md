@@ -6,7 +6,7 @@
 3 не сданых работы приведет к тому что ваши реквесты будут закрываться автоматом без рассмотрения.
 Пока вы не нарушили этого правила доделывать и переписывать работы все еще можно :)
 
-|                       | HW 1 | HW 2 |
+|                       | HW 1 | HW 3 |
 | ---                   | ---  | ---  |
 | aleksandr.arabadzhy   |      |      |
 | alexey.boguslavets    |  V   |      |
@@ -18,7 +18,7 @@
 | nataliia.homberh      |  V   |      |
 | jenia.tretiak         |  V   |      |
 | maksym.kolesnyk       |      |      |
-| michael.pereverov     |      |      |
+| michael.pereverov     |      |   V  |
 | pavlo.ovcharenko      |      |      |
 | pavlo.teslenko        |  V   |      |
 | ruslan.pistriak       |      |      |
