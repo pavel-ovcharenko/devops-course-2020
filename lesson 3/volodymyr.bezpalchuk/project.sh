@@ -13,7 +13,7 @@ CACHE="redis://redis:6379/1"
 
 docker network create ${NETWORK}
 
-docker run -d --rm --name ${DB_CONTAINER} --net share-net -e POSTGRES_PASSWORD=${DB_PASSWORD} postgres:9.6.5-alpine
+docker run -d --rm --name ${DB_CONTAINER} --net ${NETWORK} -e POSTGRES_PASSWORD=${DB_PASSWORD} postgres:9.6.5-alpine
 
 docker run -d --rm --name redis --net ${NETWORK} redis:4-alpine
 
